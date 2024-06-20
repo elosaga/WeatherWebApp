@@ -1,0 +1,104 @@
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* App container styling */
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header styling */
+.header {
+    padding: 50px 20px 30px 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+    text-shadow: 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+.header input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #111010;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+/* City styling */
+.city {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Temperature styling */
+.temp {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px rgba(0, 0, 0, 0.9);
+}
+
+/* Description styling */
+.desc {
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* Min/Max temperature styling */
+.minmax {
+    font-size: 24px;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* Forecast container styling */
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.forecast-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.forecast-day {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.forecast-temp {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.forecast-desc {
+    font-size: 18px;
+}

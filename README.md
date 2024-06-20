@@ -1,4 +1,3 @@
-
 # Weather Web App
 
 This is a simple web application that fetches and displays the current weather and 5-day forecast for a specified city using the OpenWeatherMap API. It also includes form validation to ensure the user enters a valid city name, and it saves the last searched city using localStorage to automatically display its weather when the user revisits the application.
